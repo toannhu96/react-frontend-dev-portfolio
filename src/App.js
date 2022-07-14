@@ -34,10 +34,10 @@ class App extends Component {
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
     document
-      .getElementById(oppositeLangIconId)
+      .getElementById(pickedLangIconId)
       .removeAttribute("filter", "brightness(40%)");
     document
-      .getElementById(pickedLangIconId)
+      .getElementById(oppositeLangIconId)
       .setAttribute("filter", "brightness(40%)");
   }
 
