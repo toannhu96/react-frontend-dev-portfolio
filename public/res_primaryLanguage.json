@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Toan Nhu. I'm a passionate Data Engineer and Fullstack Developer. There is one thing that I always keep in mind \"To make something special you just have to believe it's special\". In a word, I can say I'm just a simple guy who loves coding and believes in making something great in the future. Thank you 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,248 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "TOEIC Thật Dễ Dàng",
+        "startDate": "2021",
+        "description": "Personal project. Application helps people to learn and test TOEIC online. I made everything as fullstack developer.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/toeic/logo.png",
+          "images/portfolio/toeic/site.png"
+        ],
+        "url": "https://toeicthatdedang.com",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-original",
+            "name": "Nextjs"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgresQL"
+          }
+        ]
+      },
+      {
+        "title": "Tiki Affiliate",
+        "startDate": "2020",
+        "description": "Tiki (short for “Tìm kiếm & Tiết kiệm”, which means “Search & Save”) is Vietnam's fastest and most trusted B2C e-commerce platform. Tiki is Vietnam's most trusted e-commerce platform. I built Affiliate Marketing Solution for Tiki and worked as Backend Developer.",
+        "images": [
+          "images/portfolio/aff/logo.png",
+          "images/portfolio/aff/site.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-go-plain",
+            "name": "Go"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-mysql-plain",
+            "name": "Mysql"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Redis",
+            "class": "devicon-redis-plain",
+            "level": "100"
+          },
+          {
+            "name": "Kafka",
+            "class": "devicon-apachekafka-original",
+            "level": "100"
+          },
+          {
+            "name": "Docker",
+            "class": "devicon-docker-plain",
+            "level": "100"
+          },
+          {
+            "name": "Kubernetes",
+            "class": "devicon-kubernetes-plain",
+            "level": "100"
+          },
+          {
+            "name": "Prometheus",
+            "class": "devicon-prometheus-original",
+            "level": "100"
+          },
+          {
+            "name": "Grafana",
+            "class": "devicon-grafana-original",
+            "level": "100"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Tiki MSP",
+        "startDate": "2020",
+        "description": "Tiki (short for “Tìm kiếm & Tiết kiệm”, which means “Search & Save”) is Vietnam's fastest and most trusted B2C e-commerce platform. Tiki is Vietnam's most trusted e-commerce platform. I built Marketing Solution Portal (manage CPAS tracking and booking brand banner in Tiki site) and worked as Backend Developer.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/msp/logo.png",
+          "images/portfolio/msp/site1.png",
+          "images/portfolio/msp/site2.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-go-plain",
+            "name": "Go"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-mysql-plain",
+            "name": "Mysql"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "name": "Redis",
+            "class": "devicon-redis-plain",
+            "level": "100"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Kafka",
+            "class": "devicon-apachekafka-original",
+            "level": "100"
+          },
+          {
+            "name": "Docker",
+            "class": "devicon-docker-plain",
+            "level": "100"
+          },
+          {
+            "name": "Kubernetes",
+            "class": "devicon-kubernetes-plain",
+            "level": "100"
+          },
+          {
+            "name": "Prometheus",
+            "class": "devicon-prometheus-original",
+            "level": "100"
+          },
+          {
+            "name": "Grafana",
+            "class": "devicon-grafana-original",
+            "level": "100"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "hasBrain",
+        "title": "Frontend Web Developer - Internship",
+        "years": "06.2017 - 08.2017",
         "mainTech": [
-          "Angular 8/9/10"
+          "React"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "HTML",
+          "CSS3",
+          "Javascript",
+          "React",
+          "Redux"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Zalo",
+        "title": "Backend Developer - Fresher",
+        "years": "09.2017 - 05.2018",
         "mainTech": [
-          "Angular 7/8"
+          "Java"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Apache Thrift",
+          "REST API",
+          "Java",
+          "Hibernate",
+          "Jetty",
+          "MySQL"
+        ]
+      },
+      {
+        "company": "Zalo",
+        "title": "Data Engineer",
+        "years": "05.2018 - 09.2019",
+        "mainTech": [
+          "Java", "Scala", "Apache Spark"
+        ],
+        "technologies": [
+          "Apache Spark",
+          "Apache Kafka",
+          "Apache HBase",
+          "Apache Hadoop",
+          "Apache Thrift",
+          "REST API",
+          "Java",
+          "Hibernate",
+          "Jetty",
+          "MySQL"
+        ]
+      },
+      {
+        "company": "FUNIX",
+        "title": "Student Mentor",
+        "years": "09.2019 - Present",
+        "mainTech": [
+          "Web Development", "Big Data"
+        ],
+        "technologies": [
+          "Web Development", "Big Data"
+        ]
+      },
+      {
+        "company": "Tiki",
+        "title": "Data Engineer",
+        "years": "09.2019 - 10.2021",
+        "mainTech": [
+          "Go", "Python", "Scala", "Apache Spark", "GCP"
+        ],
+        "technologies": [
+          "GCP",
+          "Apache Spark",
+          "Apache Kafka",
+          "Apache Flink",
+          "Apache Druid",
+          "Apache Cassandra",
+          "BigQuery",
+          "MySQL",
+          "Clickhouse",
+          "Redis",
+          "Docker",
+          "Kubernetes",
+          "Prometheus",
+          "Grafana",
+          "REST API",
+          "gRPC",
+          "Go",
+          "Python"
+        ]
+      },
+      {
+        "company": "Tiki",
+        "title": "Senior Data Engineer",
+        "years": "10.2021 - present",
+        "mainTech": [
+          "Go", "Python", "Scala", "Apache Spark", "GCP"
+        ],
+        "technologies": [
+          "GCP",
+          "Apache Spark",
+          "Apache Kafka",
+          "Apache Flink",
+          "Apache Druid",
+          "Apache Cassandra",
+          "BigQuery",
+          "MySQL",
+          "Clickhouse",
+          "Redis",
+          "Docker",
+          "Kubernetes",
+          "Prometheus",
+          "Grafana",
+          "REST API",
+          "gRPC",
+          "Go",
+          "Python"
         ]
       }
     ]

@@ -1,116 +1,259 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Xin chào",
+    "description": "👋 Mình là Toàn Nhữ. Hiện tại đang là Kỹ sư dữ liệu và là Lập trình viên Fullstack. Mình luôn tâm niệm rằng \"Để làm một điều đó đặc biệt, bạn phải luôn tin rằng nó đặc biệt\". Có thể nói mình là con người đơn giản yêu lập trình và luôn tin tưởng rằng bản thân sẽ làm được một điều gì đó đặc biệt trong tương lai. Cảm ơn các bạn đã ghé thăm trang của mình 💜",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "TOEIC Thật Dễ Dàng",
+      "startDate": "2021",
+      "description": "Dự án cá nhân. Ứng dụng giúp mọi người có thể học và kiểm tra trình độ TOEIC một cách dễ dàng. Dự án này mình đảm nhận vị trí Lập trình viên Fullstack (Fullstack Developer).",
+      "images": [
+        "images/portfolio/toeic/logo.png",
+        "images/portfolio/toeic/site.png"
+      ],
+      "url": "https://toeicthatdedang.com",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-original",
+          "name": "Nextjs"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgresQL"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Tiki Affiliate",
+      "startDate": "2020",
+      "description": "Tiki (viết tắt cho “Tìm kiếm & Tiết kiệm”) là nền tảng thương mại điện tử tin cậy và nhanh nhất của Việt Nam. Mình đã xây dựng giải pháp hệ thống Tiếp thị liên kết (Affiliate Marketing Solution) cho Tiki. Vị trí mình đảm nhận trong dự án này là Lập trình viên Hệ thống (Backend Developer).",
+      "images": [
+        "images/portfolio/aff/logo.png",
+        "images/portfolio/aff/site.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-go-plain",
+          "name": "Go"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "Mysql"
+        },
+        {
+          "name": "Redis",
+          "class": "devicon-redis-plain",
+          "level": "100"
+        },
+        {
+          "name": "Kafka",
+          "class": "devicon-apachekafka-original",
+          "level": "100"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "100"
+        },
+        {
+          "name": "Kubernetes",
+          "class": "devicon-kubernetes-plain",
+          "level": "100"
+        },
+        {
+          "name": "Prometheus",
+          "class": "devicon-prometheus-original",
+          "level": "100"
+        },
+        {
+          "name": "Grafana",
+          "class": "devicon-grafana-original",
+          "level": "100"
+        }
+      ]
+    },
+    {
+      "title": "Tiki MSP",
+      "startDate": "2020",
+      "description": "Tiki (viết tắt cho “Tìm kiếm & Tiết kiệm”) là nền tảng thương mại điện tử tin cậy và nhanh nhất của Việt Nam. Mình đã xây dựng Marketing Solution Portal (quản lý dữ liệu tracking CPAS và cho phép đặt lịch banner trên trang chủ Tiki). Vị trí mình đảm nhận trong dự án này là Lập trình viên Hệ thống (Backend Developer).",
+      "images": [
+        "images/portfolio/msp/logo.png",
+        "images/portfolio/msp/site1.png",
+        "images/portfolio/msp/site2.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-go-plain",
+          "name": "Go"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "Mysql"
+        },
+        {
+          "name": "Redis",
+          "class": "devicon-redis-plain",
+          "level": "100"
+        },
+        {
+          "name": "Kafka",
+          "class": "devicon-apachekafka-original",
+          "level": "100"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "100"
+        },
+        {
+          "name": "Kubernetes",
+          "class": "devicon-kubernetes-plain",
+          "level": "100"
+        },
+        {
+          "name": "Prometheus",
+          "class": "devicon-prometheus-original",
+          "level": "100"
+        },
+        {
+          "name": "Grafana",
+          "class": "devicon-grafana-original",
+          "level": "100"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "hasBrain",
+      "title": "Frontend Web Developer - Internship",
+      "years": "06.2017 - 08.2017",
+      "mainTech": [
+        "React"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS3",
+        "Javascript",
+        "React",
+        "Redux"
+      ]
+    },
+    {
+      "company": "Zalo",
+      "title": "Backend Developer - Fresher",
+      "years": "09.2017 - 05.2018",
+      "mainTech": [
+        "Java"
+      ],
+      "technologies": [
+        "Apache Thrift",
+        "REST API",
+        "Java",
+        "Hibernate",
+        "Jetty",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Zalo",
+      "title": "Data Engineer",
+      "years": "05.2018 - 09.2019",
+      "mainTech": [
+        "Java", "Scala", "Apache Spark"
+      ],
+      "technologies": [
+        "Apache Spark",
+        "Apache Kafka",
+        "Apache HBase",
+        "Apache Hadoop",
+        "Apache Thrift",
+        "REST API",
+        "Java",
+        "Hibernate",
+        "Jetty",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "FUNIX",
+      "title": "Student Mentor",
+      "years": "09.2019 - Present",
+      "mainTech": [
+        "Web Development", "Big Data"
+      ],
+      "technologies": [
+        "Web Development", "Big Data"
+      ]
+    },
+    {
+      "company": "Tiki",
+      "title": "Data Engineer",
+      "years": "09.2019 - 10.2021",
+      "mainTech": [
+        "Go", "Python", "Scala", "Apache Spark", "GCP"
+      ],
+      "technologies": [
+        "GCP",
+        "Apache Spark",
+        "Apache Kafka",
+        "Apache Flink",
+        "Apache Druid",
+        "Apache Cassandra",
+        "BigQuery",
+        "MySQL",
+        "Clickhouse",
+        "Redis",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "REST API",
+        "gRPC",
+        "Go",
+        "Python"
+      ]
+    },
+    {
+      "company": "Tiki",
+      "title": "Senior Data Engineer",
+      "years": "10.2021 - present",
+      "mainTech": [
+        "Go", "Python", "Scala", "Apache Spark", "GCP"
+      ],
+      "technologies": [
+        "GCP",
+        "Apache Spark",
+        "Apache Kafka",
+        "Apache Flink",
+        "Apache Druid",
+        "Apache Cassandra",
+        "BigQuery",
+        "MySQL",
+        "Clickhouse",
+        "Redis",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "REST API",
+        "gRPC",
+        "Go",
+        "Python"
+      ]
+    }
+  ]
+}
