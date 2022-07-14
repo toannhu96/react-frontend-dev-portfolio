@@ -12,7 +12,7 @@
     "projects": [
       {
         "title": "TOEIC Thật Dễ Dàng",
-        "startDate": "2021",
+        "startDate": "2022",
         "description": "Personal project. Application helps people to learn and test TOEIC online. I made everything as fullstack developer.",
         "images": [
           "images/portfolio/toeic/logo.png",
@@ -36,7 +36,7 @@
       },
       {
         "title": "Tiki Affiliate",
-        "startDate": "2020",
+        "startDate": "2021",
         "description": "Tiki (short for “Tìm kiếm & Tiết kiệm”, which means “Search & Save”) is Vietnam's fastest and most trusted B2C e-commerce platform. Tiki is Vietnam's most trusted e-commerce platform. I built Affiliate Marketing Solution for Tiki and worked as Backend Developer.",
         "images": [
           "images/portfolio/aff/logo.png",

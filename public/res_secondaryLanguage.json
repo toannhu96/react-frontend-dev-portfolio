@@ -12,7 +12,7 @@
   "projects": [
     {
       "title": "TOEIC Thật Dễ Dàng",
-      "startDate": "2021",
+      "startDate": "2022",
       "description": "Dự án cá nhân. Ứng dụng giúp mọi người có thể học và kiểm tra trình độ TOEIC một cách dễ dàng. Dự án này mình đảm nhận vị trí Lập trình viên Fullstack (Fullstack Developer).",
       "images": [
         "images/portfolio/toeic/logo.png",
@@ -36,7 +36,7 @@
     },
     {
       "title": "Tiki Affiliate",
-      "startDate": "2020",
+      "startDate": "2021",
       "description": "Tiki (viết tắt cho “Tìm kiếm & Tiết kiệm”) là nền tảng thương mại điện tử tin cậy và nhanh nhất của Việt Nam. Mình đã xây dựng giải pháp hệ thống Tiếp thị liên kết (Affiliate Marketing Solution) cho Tiki. Vị trí mình đảm nhận trong dự án này là Lập trình viên Hệ thống (Backend Developer).",
       "images": [
         "images/portfolio/aff/logo.png",
