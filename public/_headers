@@ -1,0 +1,5 @@
+/
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: <https://github.com/toannhu96/react-frontend-dev-portfolio#readme>; rel="service-doc"
+  Link: </.well-known/agent-card.json>; rel="agent-card"
+  Link: </.well-known/mcp/server-card.json>; rel="mcp-server-card"

@@ -1,0 +1,9 @@
+{
+  "issuer": "https://toannhu96.github.io/react-frontend-dev-portfolio",
+  "authorization_endpoint": "https://toannhu96.github.io/react-frontend-dev-portfolio/auth/authorize",
+  "token_endpoint": "https://toannhu96.github.io/react-frontend-dev-portfolio/auth/token",
+  "jwks_uri": "https://toannhu96.github.io/react-frontend-dev-portfolio/.well-known/jwks.json",
+  "response_types_supported": ["code", "token"],
+  "grant_types_supported": ["authorization_code", "refresh_token", "implicit"],
+  "scopes_supported": ["read", "write"]
+}

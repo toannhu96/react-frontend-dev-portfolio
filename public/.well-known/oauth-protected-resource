@@ -1,0 +1,5 @@
+{
+  "resource": "https://toannhu96.github.io/react-frontend-dev-portfolio/api",
+  "authorization_servers": ["https://toannhu96.github.io/react-frontend-dev-portfolio"],
+  "scopes_supported": ["read:profile", "read:projects"]
+}

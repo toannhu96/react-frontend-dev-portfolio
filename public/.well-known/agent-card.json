@@ -5,7 +5,7 @@
   "supportedInterfaces": [
     {
       "interface": "a2a",
-      "serviceUrl": "https://toannhu96.github.io/react-frontend-dev-portfolio/api/agent",
+      "url": "https://toannhu96.github.io/react-frontend-dev-portfolio/api/agent",
       "protocol": "https"
     }
   ],
