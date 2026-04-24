@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://toannhu96.github.io/react-frontend-dev-portfolio/",
+      "service-desc": [
+        {
+          "href": "https://toannhu96.github.io/react-frontend-dev-portfolio/openapi.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://toannhu96.github.io/react-frontend-dev-portfolio/docs",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://toannhu96.github.io/react-frontend-dev-portfolio/health",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

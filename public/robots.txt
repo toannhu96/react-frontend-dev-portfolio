@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+Sitemap: https://toannhu96.github.io/react-frontend-dev-portfolio/sitemap.xml
+Content-Signal: ai-train=no, search=yes, ai-input=no

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agentskills.io/v0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "Portfolio Data Access",
+      "type": "data-retrieval",
+      "description": "Access to portfolio data including skills, experience, and projects.",
+      "url": "https://toannhu96.github.io/react-frontend-dev-portfolio/portfolio_shared_data.json",
+      "sha256": "1ef3ccae25a3ac7830427f4514f47c736483d54029b18b053cffc53fc3c00eb2"
+    }
+  ]
+}

@@ -47,6 +47,36 @@ class App extends Component {
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
     );
+
+    // WebMCP implementation for agent discovery
+    if (navigator.modelContext && navigator.modelContext.provideContext) {
+      navigator.modelContext.provideContext({
+        tools: [
+          {
+            name: "get_portfolio_info",
+            description: "Get basic info about the portfolio owner",
+            inputSchema: {
+              type: "object",
+              properties: {}
+            },
+            execute: async () => {
+              return JSON.stringify(this.state.sharedData.basic_info);
+            }
+          },
+          {
+            name: "get_projects",
+            description: "List projects from the portfolio",
+            inputSchema: {
+              type: "object",
+              properties: {}
+            },
+            execute: async () => {
+              return JSON.stringify(this.state.resumeData.projects);
+            }
+          }
+        ]
+      });
+    }
   }
 
   loadResumeFromPath(path) {

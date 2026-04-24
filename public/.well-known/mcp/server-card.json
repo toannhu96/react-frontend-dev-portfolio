@@ -1,0 +1,14 @@
+{
+  "serverInfo": {
+    "name": "Toannhu96 Portfolio MCP Server",
+    "version": "1.0.0"
+  },
+  "transport": {
+    "type": "http",
+    "endpoint": "https://toannhu96.github.io/react-frontend-dev-portfolio/api/mcp"
+  },
+  "capabilities": {
+    "tools": true,
+    "resources": true
+  }
+}

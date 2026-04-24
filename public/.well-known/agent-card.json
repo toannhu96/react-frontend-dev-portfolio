@@ -1,0 +1,28 @@
+{
+  "name": "Toannhu96 Portfolio Agent",
+  "version": "1.0.0",
+  "description": "An agent that provides information about Toannhu96's professional experience and projects.",
+  "supportedInterfaces": [
+    {
+      "interface": "a2a",
+      "serviceUrl": "https://toannhu96.github.io/react-frontend-dev-portfolio/api/agent",
+      "protocol": "https"
+    }
+  ],
+  "capabilities": [
+    "information-retrieval",
+    "project-showcase"
+  ],
+  "skills": [
+    {
+      "id": "get-experience",
+      "name": "Get Experience",
+      "description": "Returns professional experience details."
+    },
+    {
+      "id": "get-projects",
+      "name": "Get Projects",
+      "description": "Returns project details."
+    }
+  ]
+}
